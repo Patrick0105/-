@@ -6,7 +6,7 @@ if __name__ =='__main__':
     num = 0
     avg = 0
     len_product = int(input('請輸入欲計算至第幾筆資料：'))
-    counter = int(input('宣告成請選擇只看偶數(0)奇數(1)：'))
+    counter = int(input('請選擇只看偶數(0)奇數(1)：'))
 
     while num <= len_product:
         try:
