@@ -1,6 +1,6 @@
 product_price <- c(15900, 30900, 32900, 16900, 13900)
 result <- 0
-num <- 0
+num <- 1
 avg <- 0
 len_product <- '請輸入欲計算至第幾筆資料整數'
 len_product
@@ -15,19 +15,19 @@ while (num <= len_product[1]){
         if (counter[1] == 1){
                 result <- result + product_price[num]
                 num <- num + 2
+                avg <- avg + 1
         }
         else if (counter[1] == 2){
                 num <- num + 1
                 result <- result + product_price[num]
                 num <- num + 1
+                avg <- avg + 1
         }
-        avg <- avg + 1
     }, warning = function(w){
-        break
+        break()
     }, error = function(e){
-        break
+        break()
     })
 }
 result
 result/avg
-
