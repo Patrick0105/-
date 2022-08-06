@@ -8,3 +8,4 @@ product <- data.frame(name,size,price,available)
 product[1,]
 product[3,]
 # product[seq( 1 ,nrow(product), 2 ),]
+#
