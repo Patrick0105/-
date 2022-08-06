@@ -17,7 +17,6 @@ counter <- scan(nmax = 2)
 #3 1 48800 24400
 #5 2 47800 23900
 while (num <= len_product[1]){
-
     if (counter[1] == 1){
             result <- result + product_price[num]
             num <- num + 2
@@ -33,7 +32,6 @@ while (num <= len_product[1]){
         num <- num + 1
         avg <- avg + 1
     }
-
 }
 result
 result/avg
