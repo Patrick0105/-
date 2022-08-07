@@ -1,3 +1,6 @@
+#3 1 48800 24400
+#5 2 47800 23900
+
 product_price <- c(15900, 30900, 32900, 16900, 13900)
 result <- 0
 num <- 1
@@ -14,8 +17,6 @@ counter <- scan(nmax = 2)
 2
 
 
-#3 1 48800 24400
-#5 2 47800 23900
 while (num <= len_product[1]){
     if (counter[1] == 1){
             result <- result + product_price[num]

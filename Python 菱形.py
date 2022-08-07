@@ -1,6 +1,7 @@
-n = 3
 # 135 531
 # 13579 97531
+
+n = 3
 
 def diamond(n):
     for i in range(1,n+1):
